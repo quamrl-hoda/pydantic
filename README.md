@@ -33,15 +33,16 @@ pip install fastapi[all]
 ### Project Structure
 pydantic/
 │
-├── 1_padantic_why.py # Introduction — why we use Pydantic
-├── 2_field_validator.py # Using field validators for data validation
-├── 3_model_validator.py # Using model-level validation
-├── 4_computed_fields.py # Working with computed properties
-├── 5_nested_models.py # Nested and complex Pydantic models
-├── 6_serialization.py # Serialization and parsing examples
+├── 1_padantic_why.py          # Introduction — why we use Pydantic
+├── 2_field_validator.py       # Using field validators for data validation
+├── 3_model_validator.py       # Model-level validation
+├── 4_computed_fields.py       # Working with computed fields
+├── 5_nested_models.py         # Nested and complex models
+├── 6_serialization.py         # Serialization and parsing examples
 │
-├── README.md # Project documentation
-└── tempCodeRunnerFile.py # Temporary file created by VS Code
+├── README.md                  # Project documentation
+└── tempCodeRunnerFile.py      # Temporary file (VS Code)
+
 
 ### Contributing
 Contributions and suggestions are welcome! Fork the repo and create a pull request.
